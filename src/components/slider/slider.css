@@ -1,0 +1,67 @@
+.content
+{
+    box-sizing: content-box;
+    text-align: center;
+    color:#fff;
+max-width: 40%;
+height: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    opacity: 0.8;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    overflow: hidden;
+}
+h1
+{
+    text-transform: uppercase;
+}
+.content > button
+{
+width: 40%;
+
+margin: 0 auto 1rem auto; 
+cursor: pointer;
+text-transform: uppercase;
+letter-spacing: 0.2rem;
+font-weight: bold;
+
+
+}
+.content > button:hover{
+   color: #fff;
+   color:#1b1c1d;
+
+}
+.arrow
+{
+    border: 0.2rem solid #fff;
+    background-color: black; 
+    opacity: 0.9;
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999;
+    cursor: pointer;
+
+}
+.arrow.next
+{
+    top:50%; 
+    right: 5%;
+}
+.arrow.prev
+{
+    top:50%; 
+    left: 5%;
+}
+.arrow:hover{
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,19 @@
+button{
+    background-color: transparent;
+    min-width: 5rem;
+    color: #fff;
+    border: 0.1rem solid #fff;
+    padding:  1rem;
+    border-radius: 0.6rem;
+    transform: 3s;
+    cursor: pointer;
+    
+
+
+}
+button:hover
+{
+    background-color: #fff;
+    color:#1b1c1d;
+
+}
