@@ -1,8 +1,9 @@
 
 import './App.css';
 import Header from './components/Header/Header';
-import Categories from './components/Categories/Categories';
+import Page from './components/Page/Page';
 
+import {BrowserRouter  as Router} from 'react-router-dom'
 
 
 
@@ -14,15 +15,25 @@ function App() {
  
 
   return (
-    <div className="App">
-      <header>{<Header/>} </header>
+  <Router>
+
+      <div className="App">
+      <header><Header/></header>
       <main >
-<Categories/>
+      <section>{<Page/>}</section>
       </main>
    
    
       </div>
 
+
+
+  </Router>
+
+
+
+   
+ 
    
     
   );

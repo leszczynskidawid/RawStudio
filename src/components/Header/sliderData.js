@@ -42,10 +42,10 @@ export const images = [
     },
 
     {
-      title: "Four",
+      title: "Swiece",
       description:
-        "Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis  purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.",
-      button: "Discover",
+        "Świece naturalne  pozwalają się odprężyć, poczuć harmonię oraz  pomoc w sferze psychicznej, podnieść wibracje, wewnętrzny spokój duchowy.",
+      color:"burlywood",
       image:img4,
       user: "Erich Behrens",
       userProfile: "https://i.imgur.com/0Clfnu7.png"
@@ -53,7 +53,7 @@ export const images = [
     {
       title: "five",
       description:
-        "quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentumconsectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
+        " mauris condimentumconsectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.",
       button: "Buy now",
       image: img4,
       user: "Bruno Vizovsky",
